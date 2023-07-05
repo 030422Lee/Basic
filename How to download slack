@@ -1,0 +1,11 @@
+// turn on your terminal -> ctrl + alt + t
+
+// Install the snapd package on your system.
+sudo apt install snapd
+
+// If the snapd package is not installed on your system, you cannot proceed with the installation of the slack.
+snap version
+
+// You must enter this command in the terminal and then press Enter.
+// Note: The system may ask for sudo user's password. If so, enter your password in the space allocated and proceed.
+sudo snap install slack --classic
